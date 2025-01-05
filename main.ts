@@ -60,8 +60,6 @@ digitalLibrary.addBook({
 
 // Get details of a book by ISBN
 console.log(digitalLibrary.getBookDetails("1234567890")); 
-// Output: Title: The TypeScript Handbook, Author: Daniel Rosenwasser, Year: 2020, Genre: Programming
 
 // List all book titles
 console.log(digitalLibrary.listBooks()); 
-// Output: [ 'The TypeScript Handbook', 'Clean Code' ]
